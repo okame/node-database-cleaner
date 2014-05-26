@@ -19,6 +19,12 @@ describe('mysql', function() {
     });
 
     describe('client', function() {
+
+        it('should fire callback.', function(done) {
+            databaseCleaner.clean(client);
+            databaseCleaner.clean(client, done);
+        });
+
         it('should delete all records', function(done) {
             databaseCleaner.clean(client, function(err, res) {
                 if(err) console.log(err);
