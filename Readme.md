@@ -54,6 +54,13 @@ Look at examples dir.
 
 Running tests
 -------------
+For mysql tests you should prepare database config.
+```shell
+$ cd node_modules/database-cleaner/test
+$ cp mysql.config.js.tmpl mysql.config.js
+$ vim mysql.config.js # set your test database information and create test database.
+```
+
 There is some ways to run tests:
 
 ```shell

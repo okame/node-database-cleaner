@@ -1,4 +1,5 @@
 node_modules
+test/mysql.config.js
 .tmp_*~
 *#
 .#*

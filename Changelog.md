@@ -1,3 +1,8 @@
+0.7.1 / 2014-05-26
+==================
+  * Update node-mysql, should, mocha
+  * Update cleaning of mysql
+
 0.7.0 / 2011-12-18
 ==================
   * Remove system.indexes during cleanner - Issue #13 (mongodb)

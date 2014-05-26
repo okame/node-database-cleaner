@@ -12,11 +12,11 @@
     "mongodb" : "0.9.8-7",
     "redis" : "0.7.1",
     "cradle" : "0.5.8",
-    "mysql" : "0.9.5"
+    "mysql" : "2.3.0"
   },
   "devDependencies" : {
-    "mocha" : "0.7.0",
-    "should" : "0.4.2"
+    "mocha" : "1.1.9",
+    "should" : "3.3.2"
   },
   "main": "index",
   "scripts": {
